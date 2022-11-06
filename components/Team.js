@@ -30,7 +30,7 @@ const Team = () => {
         <h1 className="text-center font-bold text-primary text-3xl mb-16">
           Tim Kami
         </h1>
-        <div className="grid lg:grid-cols-4 grid-cols-1 gap-20 place-content-between">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-20 place-content-between">
           {listTeam.map((val) => {
             return (
               <div

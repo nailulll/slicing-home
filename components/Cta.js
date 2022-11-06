@@ -27,6 +27,7 @@ const Cta = () => {
   ];
   return (
     <div className="relative overflow-hidden">
+      <div className="absolute bg-primary bg-opacity-5 w-[874px] h-[874px] rounded-full top-0 -left-[700px] lg:top-0 z-0" />
       <Container>
         {listCta.map((val) => {
           return (
@@ -55,7 +56,7 @@ const Cta = () => {
               <div className="w-full lg:w-1/2">
                 <Image
                   src={val.img}
-                  width="600"
+                  width="800"
                   height="380"
                   className="w-full object-cover rounded-md z-50"
                   alt={val.title}
